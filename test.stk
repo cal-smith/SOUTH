@@ -1,0 +1,6 @@
+'recursion go!' print
+( r 
+	1 + 
+	dup 5 == ? print : r ;
+) 
+1 r
